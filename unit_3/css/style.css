@@ -1,0 +1,25 @@
+body {
+	background-image: url(../img/pigmentcolorpowdermakeup.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+
+}
+
+h1, p{
+	text-align: right;
+	color: purple;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#slogan{
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#contact{
+	font-size: 15px;
+	font-weight: lighter;
+}
