@@ -35,7 +35,8 @@ h3 {
 }
 
 body {
-	background: url(../img/baybridge.jpg);
+	background: url(images/baybridge.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
