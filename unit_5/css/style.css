@@ -1,14 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
-@import url(https://fonts.googleapis.com/css?family=Cookie);
-@import url(https://fonts.googleapis.com/css?family=Meddon);
-@import url(https://fonts.googleapis.com/css?family=Paprika);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
 
 header {
     background-color:#FFED74;
     border: 1px black solid;
     padding: 20px;
     font-weight: 100;
-    font-family: 'Bangers';
+    font-family: 'Orbitron';
     font-size: 38px;
     text-transform: uppercase;
     letter-spacing: 5px;
