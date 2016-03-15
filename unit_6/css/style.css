@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+header {
+    background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    font-weight: 100;
+    font-family: 'Orbitron';
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	font-weight: 400;
+	font-family: 'Bangers';
+	text-align: center;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 22px;
+	font-family: 'Bangers';
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+body {
+	background: url(images/nightbaybridge.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+#contact {
+	font-style: italic;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+ul {
+	display: inline;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Bangers';
+	font-weight: 700;
+	text-align: center;
+}
+
+body > #container {height: auto; min-height: 50%}
