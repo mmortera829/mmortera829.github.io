@@ -74,7 +74,6 @@ ul {
     background-color: violet;
     border: 1px black solid;
     padding: 20px;
-    float: left;
     width: 33%;
 }
 
@@ -82,7 +81,6 @@ ul {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
-    float: center;
     width: 33%;
 }
 
@@ -90,7 +88,6 @@ ul {
     background-color: pink;
     border: 1px black solid;
     padding: 20px; 
-    float: right;
     width: 33%;
 }
 
