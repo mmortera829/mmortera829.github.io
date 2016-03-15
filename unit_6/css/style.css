@@ -60,7 +60,8 @@ ul {
     background-color: violet;
     border: 1px black solid;
     padding: 20px;
-    width: 30%;
+    float: left;
+    width: 33%;
 }
 
 #center {
@@ -68,13 +69,15 @@ ul {
     border: 1px black solid;
     padding: 20px;
     float: center;
+    width: 33%;
 }
 
 #right {
     background-color: pink;
     border: 1px black solid;
     padding: 20px; 
-    width: 62%;
+    float: right;
+    width: 33%;
 }
 footer {
 	background-color: #FF957E;
