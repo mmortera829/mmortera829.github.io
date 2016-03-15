@@ -57,9 +57,15 @@ ul {
 	display: inline;
 }
 
+.column {
+	width: 60px;
+	height: 70px;
+	margin: 0;
+}
+
 #three_column {
     background-color: #FFB7CF;
-    border: 1px black solid;
+    border: 2px black solid;
     padding: 20px;
 }
 
@@ -82,7 +88,7 @@ ul {
 #right {
     background-color: pink;
     border: 1px black solid;
-    padding: 2px; 
+    padding: 20px; 
     float: right;
     width: 33%;
 }
