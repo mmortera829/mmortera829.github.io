@@ -57,12 +57,6 @@ ul {
 	display: inline;
 }
 
-.column {
-	float: left;
-	width: 60px;
-	height: 70px;
-	margin: 0;
-}
 
 #three_column {
     background-color: #FFB7CF;
@@ -90,7 +84,7 @@ ul {
     background-color: pink;
     border: 1px black solid;
     padding: 20px; 
-    float: left;
+    float: right;
     width: 33%;
 }
 
