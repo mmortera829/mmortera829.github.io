@@ -71,6 +71,14 @@ ul {
     width: 33%;
 }
 
+#center {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: center;
+    width: 33%;
+}
+
 #right {
     background-color: pink;
     border: 1px black solid;
@@ -79,6 +87,11 @@ ul {
     width: 33%;
 }
 
+#two {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
