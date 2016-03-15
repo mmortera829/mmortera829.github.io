@@ -13,6 +13,37 @@ header {
     text-align: center;
 }
 
+body {
+	background: url(images/nightbaybridge.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center:
+	;
+}
+
+#three_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#center {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+}
 article {
 	background-color: #E89C6C;
 	border: 1px black solid;
@@ -20,14 +51,6 @@ article {
 	font-weight: 400;
 	font-family: 'Orbitron';
 	text-align: center;
-}
-
-body {
-	background: url(images/nightbaybridge.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center:
-	;
 }
 
 p {
@@ -56,5 +79,3 @@ footer {
 	font-weight: 700;
 	text-align: center;
 }
-
-body > #container {height: auto; min-height: 50%}
