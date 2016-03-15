@@ -7,9 +7,7 @@ header {
     padding: 20px;
     font-weight: 100;
     font-family: 'Orbitron';
-    font-size: 38px;
     text-transform: uppercase;
-    letter-spacing: 5px;
     text-align: center;
 }
 
@@ -18,14 +16,14 @@ article {
 	border: 1px black solid;
 	padding: 20px;
 	font-weight: 400;
-	font-family: 'Bangers';
+	font-family: 'Orbitron';
 	text-align: center;
 }
 
 h2 {
 	font-weight: 400;
 	font-size: 22px;
-	font-family: 'Bangers';
+	font-family: 'Orbitron';
 }
 
 h3 {
@@ -38,7 +36,8 @@ body {
 	background: url(images/nightbaybridge.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #000;
+	text-align: center:
+	;
 }
 
 p {
@@ -63,9 +62,7 @@ footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
-	font-family: 'Bangers';
+	font-family: 'Orbitron';
 	font-weight: 700;
 	text-align: center;
 }
-
-body > #container {height: auto; min-height: 50%}
