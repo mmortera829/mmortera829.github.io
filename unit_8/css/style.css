@@ -89,7 +89,7 @@ ul {
     background-color: pink;
     border: 1px black solid;
     padding: 20px; 
-    float: right;
+    float: left;
     width: 30%;
 }
 
@@ -105,13 +105,4 @@ footer {
 	font-family: 'Orbitron';
 	font-weight: 700;
 	text-align: center;
-}
-
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
 }
