@@ -29,7 +29,7 @@ body {
 }
 
 h2 {
-	color: #808080;
+	color: #343530;
 	text-align: center;
 	font-size: 45px;	
 	font-family: 'Orbitron';
@@ -53,24 +53,27 @@ p {
 }
 
 nav {
-	background-color: #black;
+	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 ul {
 	display: inline;
+	text-align: center;
+	list-style: none;
+	font-family: 'Jura';
 }
 
 
 #three_column {
-    background-color: #696969;
+    background-color: #FFB7CF;
     border: 2px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: 696969;
+    background-color: #D3D3D3;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -78,7 +81,7 @@ ul {
 }
 
 #center {
-    background-color: #696969;
+    background-color: #D3D3D3;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -86,23 +89,24 @@ ul {
 }
 
 #right {
-    background-color: 696969;
+    background-color: #D3D3D3;
     border: 1px black solid;
     padding: 20px; 
-    float: left;
+    float: right;
     width: 30%;
 }
 
 #two {
-	background-color: #696969;
+	background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 footer {
-	background-color: #D3D3D3;
+	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
 	font-family: 'Orbitron';
 	font-weight: 700;
 	text-align: center;
 }
+
