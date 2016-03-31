@@ -1,29 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
-
-header {
-    background-color:#FFED74;
-    border: 1px black solid;
-    padding: 20px;
-    font-family: 'Orbitron';
-    font-size: 75px;
-}
-
-head {    
-    font-weight: 100;
-    font-family: 'Orbitron';
-    font-size: 70px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Jura:400,600);
 
 body {
 	background: url(images/nightbaybridge.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
 	background-color: black;
+}
+
+header {
+    background-color:#808080;
+    border: 1px black solid;
+    padding: 5px;
+    font-family: 'Orbitron';
+    font-size: 75px;
+}
+
+ul {
+	display: inline;
 }
 
 h2 {
@@ -33,69 +28,18 @@ h2 {
 	font-family: 'Orbitron';
 }
 
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-	font-weight: 400;
-	font-family: 'Orbitron';
-	text-align: center;
-}
-
 p {
 	line-height: 1.5em;
 }
 
-#contact {
-	font-style: italic;
-}
-
 nav {
-	background-color: #E8C66A;
+	padding: 3px;
+	font-family: 'jura';
+	font-size: 20px;
+	background-color: #black;
 	border: 1px black solid;
-	padding: 20px;
 }
 
-ul {
-	display: inline;
-}
-
-
-#three_column {
-    background-color: #FFB7CF;
-    border: 2px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#center {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px; 
-    float: right;
-    width: 30%;
-}
-
-#two {
-	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
