@@ -1,14 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
-@import url(https://fonts.googleapis.com/css?family=Jura:400,600);
 
 header {
-    background-color:#808080;
+    background-color:#FFED74;
     border: 1px black solid;
     padding: 20px;
     font-family: 'Orbitron';
     font-size: 75px;
-    text-align: center;
 }
 
 head {    
@@ -28,64 +26,15 @@ body {
 	background-color: black;
 }
 
-header {
-	background-color: black;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 h2 {
-	color: #778899;
+	color: #343530;
 	text-align: center;
 	font-size: 45px;	
-	font-family: 'Jura';
-}
-
-#three_column {
-    background-color: #808080;
-    border: 2px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: #D3D3D3;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#center {
-    background-color: #D3D3D3;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: #D3D3D3;
-    border: 1px black solid;
-    padding: 20px; 
-    float: right;
-    width: 30%;
-}
-
-#Need {
-	background-color: #808080;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#contact {
-	font-family: 'Jura', sans-serif;
-	font-style: italic;
-	font-size: 30px;
-	text-align: center;
+	font-family: 'Orbitron';
 }
 
 article {
-	background-color: #778899;
+	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
 	font-weight: 400;
@@ -97,21 +46,58 @@ p {
 	line-height: 1.5em;
 }
 
+#contact {
+	font-style: italic;
+}
+
 nav {
-	background-color: #778899;
+	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 ul {
 	display: inline;
-	text-align: center;
-	list-style: none;
-	font-family: 'Jura';
 }
 
+
+#three_column {
+    background-color: #FFB7CF;
+    border: 2px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#center {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px; 
+    float: right;
+    width: 30%;
+}
+
+#two {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
 footer {
-	background-color: #708090;
+	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
 	font-family: 'Orbitron';
@@ -119,11 +105,11 @@ footer {
 	text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-	nav {
-		float: none;
-	}
-
-	nav a {
-		margin: 0 1.6em .75em 0;
-	}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
