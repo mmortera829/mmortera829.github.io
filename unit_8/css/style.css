@@ -84,18 +84,6 @@ h2 {
 	text-align: center;
 }
 
-section {
-	background-color: #778899;
-	border: 1px black solid;
-	padding: 20px;
-	font-weight: 400;
-	font-family: 'Orbitron';
-	text-align: center;
-}
-
-p {
-	line-height: 1.5em;
-}
 
 nav {
 	background-color: #778899;
