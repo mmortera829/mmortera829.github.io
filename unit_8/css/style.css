@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Jura:400,600);
 
 header {
-    background-color: #FFFF00;
+    font-color: #FFFF00;
     border: 1px black solid;
     padding: 20px;
     font-family: 'Orbitron';
