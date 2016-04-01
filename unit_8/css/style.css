@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Jura:400,600);
 
 header {
-    font-color: #FFFF00;
+    background-color: #FFFF00;
     border: 1px black solid;
     padding: 20px;
     font-family: 'Orbitron';
@@ -67,7 +67,7 @@ h2 {
     background-color: #D3D3D3;
     border: 1px black solid;
     padding: 10px; 
-    float: right;
+    float: left;
     width: 25%;
 }
 
