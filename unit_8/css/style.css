@@ -29,7 +29,7 @@ body {
 }
 
 header {
-	background-color: white;
+	background-color: #C0C0C0;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -107,7 +107,7 @@ footer {
 	text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
 	nav {
 		float: none;
 	}
@@ -119,3 +119,5 @@ footer {
 	img {
 		width: 320px;
 	}
+
+	
