@@ -88,7 +88,7 @@ h2 {
 nav {
 	background-color: #C0C0C0;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 30px;
 }
 
 ul {
@@ -101,7 +101,7 @@ ul {
 footer {
 	background-color: #C0C0C0;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2px;
 	font-family: 'Orbitron';
 	font-weight: 700;
 	text-align: center;
@@ -124,6 +124,6 @@ footer {
 	header {
 		background-color: #C0C0C0;
 		border: 1px black solid;
-		
+
 	}
 }
