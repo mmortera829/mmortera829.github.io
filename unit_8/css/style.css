@@ -60,14 +60,14 @@ h2 {
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 60%;
 }
 
 #right {
     background-color: #D3D3D3;
     border: 1px black solid;
     padding: 20px; 
-    float: left;
+    float: right;
     width: 30%;
 }
 
@@ -119,3 +119,11 @@ footer {
 	text-align: center;
 }
 
+@media only screen and (max-width: 480px) {
+	nav {
+		float: none;
+	}
+
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
