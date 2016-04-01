@@ -28,43 +28,18 @@ body {
 	background-color: black;
 }
 
+header {
+	background-color: black;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 h2 {
 	color: #778899;
 	text-align: center;
 	font-size: 45px;	
 	font-family: 'Orbitron';
 }
-
-article {
-	background-color: #778899;
-	border: 1px black solid;
-	padding: 20px;
-	font-weight: 400;
-	font-family: 'Orbitron';
-	text-align: center;
-}
-
-p {
-	line-height: 1.5em;
-}
-
-#contact {
-	font-style: italic;
-}
-
-nav {
-	background-color: #778899;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-ul {
-	display: inline;
-	text-align: center;
-	list-style: none;
-	font-family: 'Jura';
-}
-
 
 #three_column {
     background-color: #808080;
@@ -100,8 +75,41 @@ ul {
 	background-color: #808080;
     border: 1px black solid;
     padding: 20px;
-
 }
+
+#contact {
+	font-family: 'Jura', sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+}
+
+article {
+	background-color: #778899;
+	border: 1px black solid;
+	padding: 20px;
+	font-weight: 400;
+	font-family: 'Orbitron';
+	text-align: center;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+nav {
+	background-color: #778899;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+ul {
+	display: inline;
+	text-align: center;
+	list-style: none;
+	font-family: 'Jura';
+}
+
 footer {
 	background-color: #708090;
 	border: 1px black solid;
@@ -112,5 +120,10 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-}
+	nav {
+		float: none;
+	}
 
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
